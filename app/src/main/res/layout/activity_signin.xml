@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".UserSide.Signin">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/logo"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin\nLogin"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:id="@+id/al"
+            android:background="@drawable/bg1"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bdet1"
+        android:layout_marginTop="20dp"
+        android:layout_margin="18dp"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/emailsi"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                app:errorEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+
+                    android:hint="Email"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"
+            android:id="@+id/passwordsi">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:maxLines="1"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg1"
+        android:id="@+id/btnsignin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="don't have an account "
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Signup"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:id="@+id/tvsusi"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

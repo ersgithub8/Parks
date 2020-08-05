@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Parks</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Signup"><u>Signup Here</u>.</string>
+
+    <string-array name="myarray">
+        <item>East</item>
+        <item>West</item>
+        <item>North</item>
+        <item>South</item>
+
+    </string-array>
+    <string-array name="pending">
+        <item>Pending</item>
+        <item>Done</item>
+
+    </string-array>
+</resources>

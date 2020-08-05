@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/exc1"/>
+        <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+    android:text="Tips:"
+    android:textSize="23dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto"
+    />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1. Be aware of your body\n
+2. Warm up and cool down.\n
+3. Pace yourself.\n
+4. Stay hydrated\n
+5. Be weather aware.\n
+6. Do it right.\n
+7. Check your gear.\n
+8. Be sensible.
+"
+            android:textStyle="italic"
+            android:textSize="17dp"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/roboto"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/exc2"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+
+    android:layout_margin="20dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:id="@+id/ll"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/aiid"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/ainame"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monitor:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aimon"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moniror ID:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/aimonid"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P ID:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/aipid"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P Name:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/aipname"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P Category:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aipcat"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Task:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aitask"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Site:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aisite"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aistatus"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assign Date:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aiad"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complete Date:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aicd"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assign Time:  "
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:fontFamily="@font/roboto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gviat"
+                android:textColor="#000000"
+                android:layout_marginBottom="5dp"
+                android:textSize="15dp"
+                android:fontFamily="@font/roboto"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

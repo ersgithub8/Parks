@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookticket">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:networkSecurityConfig="@xml/security_config"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdminSide.PendingVehicleEdit"></activity>
+        <activity android:name=".AdminSide.PendingAssignmentedit" />
+        <activity
+            android:name=".UserSide.HomeUser"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AdminSide.WaterSanitation" />
+        <activity android:name=".AdminSide.ViewVehicle" />
+        <activity android:name=".AdminSide.PendingVehicle" />
+        <activity android:name=".AdminSide.PendingAssignment" />
+        <activity android:name=".AdminSide.VehicleAssignment" />
+        <activity android:name=".AdminSide.ViewRecord" />
+        <activity android:name=".AdminSide.EmployeeAssignment" />
+        <activity android:name=".AdminSide.AdminHome" />
+        <activity android:name=".AdminSide.AdminLogin" />
+        <activity android:name=".UserSide.Signup" />
+        <activity android:name=".UserSide.Signin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>

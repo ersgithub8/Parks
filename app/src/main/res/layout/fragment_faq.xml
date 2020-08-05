@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:orientation="vertical"
+         android:layout_marginTop="20dp"
+         android:layout_height="wrap_content">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="What intensity exercise should I do?"
+             android:textColor="#ffffff"
+             android:textStyle="bold"
+             android:fontFamily="@font/roboto"
+             android:textSize="17dp"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="7dp"
+             android:text="If you hate running, no worries! Exercise does not have to be vigorous to be heart-healthy. In fact, nearly all cardiovascular benefits are gained by moderate-intensity activity. There may be further gain, particularly for fitness, by adding vigorous activities. But even light activities, particularly if they replace sitting or sedentary time, also provide health benefits."
+
+             android:textColor="#ffffff"
+             android:fontFamily="@font/roboto"
+             android:textSize="17dp"/>
+     </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How much exercise do I need?"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:fontFamily="@font/roboto"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="
+Several groups, including the Centers for Disease Control and Prevention and the American Heart Association, released guidelines recommending that adults should engage in moderate-intensity exercise lasting at least 30 minutes on at least five days of the week."
+                android:textColor="#ffffff"
+                android:fontFamily="@font/roboto"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Do I have to exercise every day?"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/roboto"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="While it is generally advised to spread activity throughout the week, even if you can only find time to be active on weekends, any level of activity is beneficial."
+                android:textColor="#ffffff"
+                android:fontFamily="@font/roboto"
+                android:textSize="17dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Is one type of exercise better than another?"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/roboto"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="Probably not. The best exercises are the ones you enjoy and are willing to do consistently—something you look forward to that's seen as fun and not a chore. Even better if you switch up the type of exercise to break monotony! There are so many options for fitness. We recommend engaging in complimentary activities such as combining cardio with strength training."
+                android:textColor="#ffffff"
+                android:fontFamily="@font/roboto"
+                android:textSize="17dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
